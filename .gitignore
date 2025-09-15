@@ -1,0 +1,12 @@
+# Эта команда создаст файл .gitignore и запишет в него всё, что нужно игнорировать
+@"
+# Dependencies
+/node_modules
+
+# Build files
+/style.css
+
+# Misc
+.DS_Store
+*.txt
+"@ | Set-Content -Path .gitignore -Encoding utf8
