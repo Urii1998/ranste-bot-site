@@ -79,6 +79,13 @@
        ym(104136829, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true });
     </script>
     <noscript><div><img src="https://mc.yandex.ru/watch/104136829" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+
+    <script async src="https://telegram.org/js/telegram-widget.js?22" 
+        data-telegram-login="RanSte_bot" 
+        data-size="large" 
+        data-onauth="onTelegramAuth(user)" 
+        data-request-access="write">
+    </script>
     
 </head>
 <body class="text-white">
@@ -273,13 +280,31 @@
 
     </main>
         
-    <footer class="py-8">
-        <div class="container mx-auto px-6 text-center text-gray-500">
-            <p>&copy; <span id="year"></span> RanSte Bot. Все права защищены.</p>
-            <p class="text-sm mt-2"><a href="#legal" class="hover:underline">Пользовательское соглашение</a></p>
-            <p class="text-xs mt-4">Наш сервис не связан с Valve Corporation. Steam и логотип Steam являются товарными знаками и/или зарегистрированными товарными знаками Valve Corporation в США и/или других странах.</p>
+    <footer class="py-12 bg-black bg-opacity-20 text-gray-400">
+    <div class="container mx-auto px-6 text-center">
+        
+        <div class="mb-8">
+            <h4 class="font-bold text-white mb-3">Реквизиты и контакты</h4>
+            <p class="text-sm">ИНН: 421410149360</p>
+            <p class="text-sm">Телефон: +7 900 232-77-85</p>
+            <p class="text-sm">Контактный e-mail: Dinscir@gmail.com</p>
         </div>
-    </footer>
+
+        <div class="mb-8 text-sm">
+            <a href="#legal" class="hover:underline mx-2">Пользовательское соглашение</a>
+            <span class="mx-1">|</span>
+            <a href="https://disk.yandex.ru/edit/d/eeFnOsiwu7Wu_d9eIG3jFiPegnqahzm72s0qoIz-cKg6NENHZWhwOXBrdw" target="_blank" class="hover:underline mx-2">Публичная оферта</a>
+        </div>
+
+        <div class="max-w-2xl mx-auto text-sm bg-gray-900 p-4 rounded-lg mb-8">
+            <h4 class="font-bold text-white mb-2">Политика возврата</h4>
+            <p>Замена ключа осуществляется только в двух случаях: если ключ уже был активирован до момента вашей покупки, либо ключ не предназначен для вашего региона активации (Global). Повторное выпадение игры, которая уже есть на вашем аккаунте, не является основанием для замены. Все продажи являются окончательными.</p>
+        </div>
+
+        <p class="text-gray-500">&copy; <span id="year"></span> RanSte Bot. Все права защищены.</p>
+        <p class="text-xs mt-4 text-gray-600">Наш сервис не связан с Valve Corporation. Steam и логотип Steam являются товарными знаками и/или зарегистрированными товарными знаками Valve Corporation в США и/или других странах.</p>
+    </div>
+</footer>
     
     <!-- Модальное окно (ДОБАВЛЕНО) -->
     <div id="modal" class="modal-overlay hidden">
